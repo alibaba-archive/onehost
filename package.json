@@ -1,0 +1,27 @@
+{
+  "name": "onehost",
+  "version": "0.1.0",
+  "description": "One host only, redirect other hosts to bind host.",
+  "main": "./index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fengmk2/onehost.git"
+  },
+  "keywords": [
+    "host",
+    "domain",
+    "redirec"
+  ],
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*",
+    "supertest": "*",
+    "visionmedia-jscoverage": "*",
+    "connect": "*"
+  },
+  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com/)",
+  "license": "MIT"
+}
