@@ -3,7 +3,7 @@ var onehost = require('../');
 
 var app = connect(
   onehost({
-    toHost: 'localhost'
+    host: 'localhost'
   }),
   function (req, res) {
     res.end(JSON.stringify({headers: req.headers, url: req.url}));

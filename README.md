@@ -10,7 +10,8 @@ var onehost = require('onehost');
 
 var app = connect(
   onehost({
-    toHost: 'localhost.cnodejs.org'
+    host: 'localhost.cnodejs.org',
+    // exclude: 'dev.cnodejs.org',
   }),
   function (req, res) {
     res.end(JSON.stringify({headers: req.headers, url: req.url}));
