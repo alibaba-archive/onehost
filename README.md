@@ -1,6 +1,8 @@
-# onehost
+# onehost [![Build Status](https://secure.travis-ci.org/fengmk2/onehost.png)](http://travis-ci.org/fengmk2/onehost) [![Coverage Status](https://coveralls.io/repos/fengmk2/onehost/badge.png)](https://coveralls.io/r/fengmk2/onehost)
 
-[![Build Status](https://secure.travis-ci.org/fengmk2/onehost.png)](http://travis-ci.org/fengmk2/onehost)
+One host only, redirect other hosts to bind host.
+
+* jscoverage: [100%](http://fengmk2.github.com/coverage/onehost.html)
 
 ## Usage
 
@@ -37,7 +39,7 @@ $ npm test
 
 (The MIT License)
 
-Copyright (c) 2012 fengmk2 <fengmk2@gmail.com>.
+Copyright (c) 2012 - 2013 fengmk2 <fengmk2@gmail.com>.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
